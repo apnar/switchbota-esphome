@@ -81,10 +81,10 @@ if (args.length) {
 }
 // You can temporarily set your router's DNS to the host this host's IP
 // and it will correctly take care of wohand.com resolution.
-const PAYLOAD_URL = 'https://github.com/arendst/Tasmota/releases/download/v11.1.0/tasmota32c3.factory.bin';
-const PAYLOAD_PATH = path.join(__dirname, 'bin', 'payload.bin');
-const PAYLOAD_BIN_MD5 = '14e7cc0d16e72da007727581520047d5';
-const APP_URL = 'https://github.com/kendallgoto/switchbota/releases/latest/download/app.bin';
+const PAYLOAD_URL = 'https://github.com/apnar/switchbota-esphome/releases/latest/download/esphome.bin';
+const PAYLOAD_PATH = path.join(__dirname, 'bin', 'esphome.bin');
+const PAYLOAD_BIN_MD5 = '7983d4cb2f0f4e583f37772703b9e60c';
+const APP_URL = 'https://github.com/apnar/switchbota-esphome/releases/latest/download/app.bin';
 const APP_PATH = path.join(__dirname, 'bin', 'app.bin');
 const APP_BIN_MD5 = 'cc9ec0df568b6e19da2096471ed8f531';
 (async function () {
