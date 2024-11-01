@@ -86,7 +86,7 @@ const PAYLOAD_PATH = path.join(__dirname, 'bin', 'esphome.bin');
 const PAYLOAD_BIN_MD5 = '7983d4cb2f0f4e583f37772703b9e60c';
 const APP_URL = 'https://github.com/apnar/switchbota-esphome/releases/latest/download/app.bin';
 const APP_PATH = path.join(__dirname, 'bin', 'app.bin');
-const APP_BIN_MD5 = 'cc9ec0df568b6e19da2096471ed8f531';
+const APP_BIN_MD5 = '7e5a6f4d9c65abcbc2aec4c7899a3f46';
 (async function () {
 
 	function getFileHash(path) {
