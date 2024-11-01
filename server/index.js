@@ -134,9 +134,9 @@ const APP_BIN_MD5 = 'cc9ec0df568b6e19da2096471ed8f531';
 	download(PAYLOAD_PATH, PAYLOAD_URL, PAYLOAD_BIN_MD5);
 	download(APP_PATH, APP_URL, APP_BIN_MD5);
 
-	app.get('/payload.bin', (req, res) => {
+	app.get('/esphome.bin', (req, res) => {
 		console.log(`${req.ip} - ${req.url}`);
-		const file = path.join(__dirname, 'bin', 'payload.bin');
+		const file = path.join(__dirname, 'bin', 'esphome.bin');
 		res.setHeader('Content-Type', 'application/octet-stream');
 		res.sendFile(file);
 	})
